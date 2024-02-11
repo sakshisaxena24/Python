@@ -31,7 +31,7 @@ def main():
     for a in range(1, 11):
         for b in range(1, 11):
             patterns_count = count_unique_patterns(a, b)
-            print(f"Pairs ({a}, {b}) give {patterns_count} unique holding patterns.")
+            print(f"Pairs ({a}, {b}) gives {patterns_count} unique holding patterns.")
 
 main()
 
